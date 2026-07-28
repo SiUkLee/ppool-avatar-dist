@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PPool Avatar 설치</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: system-ui, -apple-system, sans-serif; margin: 0; padding: 40px 20px;
+         display: flex; flex-direction: column; align-items: center; gap: 16px; }
+  h1 { font-size: 24px; }
+  a.tile { max-width: 360px; width: 100%; display: block; padding: 20px; border-radius: 16px;
+           text-decoration: none; font-weight: 700; font-size: 18px; text-align: center; }
+  .ios { background: #007aff; color: #fff; }
+  .and { background: #3ddc84; color: #04361b; }
+  .qr { background: #8e8e93; color: #fff; }
+  p { color:#666; font-size: 13px; }
+  @media (prefers-color-scheme: dark) { body { background:#000; color:#eee } p{color:#aaa} }
+</style>
+</head>
+<body>
+  <h1>PPool Avatar</h1>
+  <p>기기에 맞는 항목을 선택하세요.</p>
+  <a class="tile ios" href="ios/">📱 iOS 설치 (아이폰 Safari)</a>
+  <a class="tile and" href="android/">🤖 Android 설치 (APK)</a>
+  <a class="tile qr" href="qr/">🔗 설치 QR 코드 보기</a>
+</body>
+</html>
